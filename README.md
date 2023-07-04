@@ -1,5 +1,5 @@
 <a name="XbQTy"></a>
-# 1.总览
+# 1. 总览
 <a name="Fmi9u"></a>
 ## 作者信息
 @ Author: Du Shaojie<br />@ Email: dusjmail@foxmail.com
@@ -10,7 +10,7 @@
 2. 将合并后的数据按照每一块1经度和1纬度的大小进行切割，保存到本地
 3. 切割后的文件的命名规则：<br />NDVI_N{}_E{}.tif<br />N{}表示纬度，E{}表示经度<br />该经纬度为切割后的tif文件的左上角像元的左上角的经纬度
 <a name="P6kZm"></a>
-# 2.需要安装的包：
+# 2. 需要安装的包：
 以下扩展库基于python3.11版本
 <a name="WdlM5"></a>
 ## GDAL
@@ -22,7 +22,7 @@
 ## PyProj
 地理数据投影库pyproj<br />版本：pyproj=3.5.0<br />安装方法：<br />conda 安装：conda install pyproj=3.5.0<br />pip安装：pip install pyproj=3.5.0<br />安装完毕后需要将代码文件中第30行按照如下方式更改：<br />envs_path=r'自己的python环境路径'
 <a name="XPaIh"></a>
-# 3.使用步骤
+# 3. 使用步骤
 
 1. 下载covert_adf_to_tif.py文件
 2. 基于pycharm或者其他代码编辑器打开该文件
