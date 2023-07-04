@@ -1,5 +1,5 @@
 <a name="XbQTy"></a>
-# 总览
+# 1. 总览
 <a name="Fmi9u"></a>
 ## 作者信息
 @ Author: Du Shaojie<br />@ Email: dusjmail@foxmail.com
@@ -12,7 +12,7 @@
 ## 输出文件命名规则
 切割后的文件的命名规则：<br />NDVI_N{}_E{}.tif<br />N{}表示纬度，E{}表示经度<br />该经纬度为切割后的tif文件的左上角的的像元的左上角的经纬度。
 <a name="P6kZm"></a>
-# 环境配置
+# 2. 环境配置
 <a name="UBETj"></a>
 ## 安装python
 
@@ -45,7 +45,7 @@ pip install requirements.txt<br />等待片刻即可完成安装。安装完成�
 环境变量名：PROJ_LIB<br />环境变量路径：你的python安装的文件路径\Lib\site-packages\pyproj\proj_dir\share\proj
 
 <a name="cgSf4"></a>
-# 使用步骤
+# 3. 使用步骤
 
 1. 在打开的终端中输入一下命令行：
 
